@@ -1,26 +1,23 @@
 #include <iostream>
+#include <vector>
 #include <string>
 using namespace std;
-
-const int MAX = 100;
 
 struct Task {
     string description;
     bool completed;
 };
 
-Task todoList[MAX];
+vector<Task> todoList;
 int taskCount = 0;
 
 void addTask() {
-    if(taskCount >= MAX) {
-        cout << "To-Do List is full\n";
-        return;
-    }
     cin.ignore();
+    Task t;
     cout << "Enter task description: ";
-    getline(cin, todoList[taskCount].description);
-    todoList[taskCount].completed = false;
+    getline(cin, t.description);
+    t.completed = false;
+    todoList.push_back(t);
     taskCount++;
 
     cout << "Task added successfully!\n";
@@ -46,9 +43,7 @@ void deleteTask() {
         return;
     }
 
-    for(int i=index-1; i<taskCount-1; ++i) {
-        todoList[i] = todoList[i+1];
-    }
+    todoList.erase(todoList.begin() + (index - 1));
     taskCount--;
     cout << "Task deleted successfully!\n";
 }
