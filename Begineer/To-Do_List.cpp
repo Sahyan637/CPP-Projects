@@ -18,7 +18,7 @@ void addTask() {
         return;
     }
     cin.ignore();
-    cout << "Enter task: ";
+    cout << "Enter task description: ";
     getline(cin, todoList[taskCount].description);
     todoList[taskCount].completed = false;
     taskCount++;
@@ -70,12 +70,12 @@ int main() {
     int choice;
 
     do {
-        cout << "\n=== To-Do List Menu ===";
+        cout << "\n=== To-Do List Menu ===\n";
         cout << "1. Add Task\n";
         cout << "2. View Tasks\n";
         cout << "3. Delete Task\n";
         cout << "4. Mark Task Completed\n";
-        cout << "5. Exi\n";
+        cout << "5. Exit\n";
         cout << "Enter choice: ";
         cin >> choice;
 
@@ -83,7 +83,7 @@ int main() {
             case 1: addTask(); break;
             case 2: viewTasks(); break;
             case 3: deleteTask(); break;
-            case 4: markCompleted; break;
+            case 4: markCompleted(); break;
             case 5: cout << "Exiting...\n"; break;
 
             default: cout << "Invalid choice!\n";
