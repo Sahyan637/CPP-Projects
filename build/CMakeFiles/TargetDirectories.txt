@@ -1,0 +1,3 @@
+C:/Users/USER/OneDrive/Desktop/Git/CPP-Projects/build/CMakeFiles/InventoryApp.dir
+C:/Users/USER/OneDrive/Desktop/Git/CPP-Projects/build/CMakeFiles/edit_cache.dir
+C:/Users/USER/OneDrive/Desktop/Git/CPP-Projects/build/CMakeFiles/rebuild_cache.dir

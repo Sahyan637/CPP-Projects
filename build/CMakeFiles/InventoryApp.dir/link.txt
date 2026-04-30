@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\InventoryApp.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\InventoryApp.dir/objects.a @CMakeFiles\InventoryApp.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\InventoryApp.dir/objects.a -Wl,--no-whole-archive -o InventoryApp.exe -Wl,--out-implib,libInventoryApp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\InventoryApp.dir\linkLibs.rsp
