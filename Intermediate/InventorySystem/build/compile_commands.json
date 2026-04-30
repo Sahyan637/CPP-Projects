@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/USER/OneDrive/Desktop/Git/CPP-Projects/Intermediate/InventorySystem/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/InventoryApp.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\InventoryApp.dir\\src\\main.cpp.obj -c C:\\Users\\USER\\OneDrive\\Desktop\\Git\\CPP-Projects\\Intermediate\\InventorySystem\\src\\main.cpp",
+  "file": "C:/Users/USER/OneDrive/Desktop/Git/CPP-Projects/Intermediate/InventorySystem/src/main.cpp",
+  "output": "CMakeFiles/InventoryApp.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/USER/OneDrive/Desktop/Git/CPP-Projects/Intermediate/InventorySystem/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/InventoryApp.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\InventoryApp.dir\\src\\Item.cpp.obj -c C:\\Users\\USER\\OneDrive\\Desktop\\Git\\CPP-Projects\\Intermediate\\InventorySystem\\src\\Item.cpp",
+  "file": "C:/Users/USER/OneDrive/Desktop/Git/CPP-Projects/Intermediate/InventorySystem/src/Item.cpp",
+  "output": "CMakeFiles/InventoryApp.dir/src/Item.cpp.obj"
+},
+{
+  "directory": "C:/Users/USER/OneDrive/Desktop/Git/CPP-Projects/Intermediate/InventorySystem/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/InventoryApp.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\InventoryApp.dir\\src\\Inventory.cpp.obj -c C:\\Users\\USER\\OneDrive\\Desktop\\Git\\CPP-Projects\\Intermediate\\InventorySystem\\src\\Inventory.cpp",
+  "file": "C:/Users/USER/OneDrive/Desktop/Git/CPP-Projects/Intermediate/InventorySystem/src/Inventory.cpp",
+  "output": "CMakeFiles/InventoryApp.dir/src/Inventory.cpp.obj"
+},
+{
+  "directory": "C:/Users/USER/OneDrive/Desktop/Git/CPP-Projects/Intermediate/InventorySystem/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/InventoryApp.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\InventoryApp.dir\\src\\Logger.cpp.obj -c C:\\Users\\USER\\OneDrive\\Desktop\\Git\\CPP-Projects\\Intermediate\\InventorySystem\\src\\Logger.cpp",
+  "file": "C:/Users/USER/OneDrive/Desktop/Git/CPP-Projects/Intermediate/InventorySystem/src/Logger.cpp",
+  "output": "CMakeFiles/InventoryApp.dir/src/Logger.cpp.obj"
+}
+]
